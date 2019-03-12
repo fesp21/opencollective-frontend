@@ -1,5 +1,9 @@
 describe('event.createOrder page', () => {
-  it('makes an order as new user', () => {
+  /**
+   * This test is not used anymore as we've moved to the new contribution flow.
+   * It will be removed soon.
+   */
+  it.skip('makes an order as new user', () => {
     cy.visit('/opensource/events/webpack-webinar');
     cy.get('#free.tier .btn.increase').click();
     cy.get('#free.tier .ctabtn').click();
